@@ -25,7 +25,7 @@ publishing {
             from(components["kotlin"])
 
             groupId = "com.github.sodp5"
-            artifactId = "unit-adapter"
+            artifactId = "retrofit-unit-adapter"
             version = "1.0.1"
         }
     }
