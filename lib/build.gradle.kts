@@ -26,7 +26,7 @@ publishing {
 
             groupId = "com.github.sodp5"
             artifactId = "retrofit-unit-adapter"
-            version = "1.0.1"
+            version = "1.0.2"
         }
     }
 }
