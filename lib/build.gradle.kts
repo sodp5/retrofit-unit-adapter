@@ -1,6 +1,7 @@
 plugins {
     id("java-library")
     id("org.jetbrains.kotlin.jvm")
+    `maven-publish`
 }
 
 java {
@@ -16,4 +17,16 @@ dependencies {
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.0")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
+}
+
+publishing {
+    publications {
+        register("release", MavenPublication::class) {
+            from(components["kotlin"])
+
+            groupId = "com.github.sodp5"
+            artifactId = "UnitCallAdapterFactory"
+            version = "1.0.0"
+        }
+    }
 }
