@@ -1,4 +1,4 @@
-package com.munny.lib
+package com.munny.retrofit.adapter.unit
 
 import retrofit2.Call
 import retrofit2.CallAdapter

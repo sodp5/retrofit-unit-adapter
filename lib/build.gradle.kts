@@ -25,8 +25,8 @@ publishing {
             from(components["kotlin"])
 
             groupId = "com.github.sodp5"
-            artifactId = "UnitCallAdapterFactory"
-            version = "1.0.0"
+            artifactId = "unit-adapter"
+            version = "1.0.1"
         }
     }
 }

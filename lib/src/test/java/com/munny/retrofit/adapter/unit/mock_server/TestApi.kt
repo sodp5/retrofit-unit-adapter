@@ -1,4 +1,4 @@
-package com.munny.lib.mock_server
+package com.munny.retrofit.adapter.unit.mock_server
 
 import retrofit2.http.GET
 

@@ -1,9 +1,9 @@
-package com.munny.lib
+package com.munny.retrofit.adapter.unit
 
 import com.google.gson.Gson
-import com.munny.lib.mock_server.MockServerResponseUtil
-import com.munny.lib.mock_server.SuccessResponse
-import com.munny.lib.mock_server.TestApi
+import com.munny.retrofit.adapter.unit.mock_server.MockServerResponseUtil
+import com.munny.retrofit.adapter.unit.mock_server.SuccessResponse
+import com.munny.retrofit.adapter.unit.mock_server.TestApi
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import okhttp3.mockwebserver.MockWebServer
