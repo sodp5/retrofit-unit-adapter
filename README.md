@@ -1,4 +1,4 @@
-[![latest_version](https://img.shields.io/github/v/release/sodp5/retrofit-unit-adapter?label=latest_version)](https://github.com/sodp5/retrofit-unit-adapter/releases/tag/1.0.2)
+[![latest_version](https://img.shields.io/github/v/release/sodp5/retrofit-unit-adapter?label=latest_version)](https://github.com/sodp5/retrofit-unit-adapter/releases)
 
 # UnitCallAdapterFactory
 This is a library that prevents NPE(NullPointerException) from occurring when receiving a response through Retrofit
