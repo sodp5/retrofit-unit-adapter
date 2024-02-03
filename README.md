@@ -1,5 +1,5 @@
 # UnitCallAdapterFactory
-This is a library that prevents NullPointerException from occurring when receiving a response through Retrofit
+This is a library that prevents NPE(NullPointerException) from occurring when receiving a response through Retrofit
 especially in cases where the response like 204 has no body.
 
 ## Using
@@ -8,7 +8,7 @@ For instance, if you write a function as follows and receive a 204 response, it 
 ```kotlin
 interface MyApiService {
   @GET("/path")
-  fun foo() // The return type is not declared as a 204 response is expected.
+  suspend fun foo() // The return type is not declared as a 204 response is expected.
 }
 ```
 
